@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "api/**/*.[jt]s": {
+      "runtime": "vercel-deno@3.0.4"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/test(.*)",
+      "destination": "/api/test"
+    }
+  ],
+  "github": {
+    "silent": true
+  }
+}
